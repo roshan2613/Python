@@ -34,6 +34,7 @@ fibb(12)
 
 #2.Fizz Buzz: print ("fizz") for all numbers divisible by 3 , print ("buzz") for all numbers divisible by 5
 # and finally print ("Fizz buzz") for numbers divisible by 3 and 5.
+
 def fizzbuzz (n):
     for i in range (n):
         if i % 15 == 0:
