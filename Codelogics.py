@@ -2,11 +2,6 @@
 
 
 
-'''
-
-
-
-
 #1.fibonacci series: 0,1,1,2,3,5,8,13,21,34
 def fibb(n):
     a = 0
@@ -18,14 +13,12 @@ def fibb(n):
         print(a)
         print (b)
         for i in range(2,n):
-            c = a + b
+            i = a + b
             a = b
-            b = c
+            b = i
+            print (i)
+fibb(5)
 
-            print (c)
-fibb(12)
-
-'''
 
 
 
@@ -48,3 +41,4 @@ def fizzbuzz (n):
 
 fizzbuzz (100)
 '''
+
